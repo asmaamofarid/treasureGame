@@ -1,47 +1,49 @@
 fileFormatVersion: 2
-guid: 12d6c5e5e779f4841b76511e90ad2c1a
-timeCreated: 1523448149
+guid: e76d8fcd0e02bb04ca26659eb70c5ea9
+timeCreated: 1523208615
 licenseType: Free
 ModelImporter:
   serializedVersion: 21
   fileIDToRecycleName:
     100000: Cube
-    100002: Cube.002
-    100004: Cube.003
-    100006: Cube.004
-    100008: Cube.005
-    100010: Cube.006
+    100002: Cube_002
+    100004: Cube_003
+    100006: Cube_004
+    100008: Cube_005
+    100010: Cube_006
     100012: //RootNode
     100014: Plane
     400000: Cube
-    400002: Cube.002
-    400004: Cube.003
-    400006: Cube.004
-    400008: Cube.005
-    400010: Cube.006
+    400002: Cube_002
+    400004: Cube_003
+    400006: Cube_004
+    400008: Cube_005
+    400010: Cube_006
     400012: //RootNode
     400014: Plane
     2300000: Cube
-    2300002: Cube.002
-    2300004: Cube.003
-    2300006: Cube.004
-    2300008: Cube.005
-    2300010: Cube.006
+    2300002: Cube_002
+    2300004: Cube_003
+    2300006: Cube_004
+    2300008: Cube_005
+    2300010: Cube_006
     2300012: Plane
     3300000: Cube
-    3300002: Cube.002
-    3300004: Cube.003
-    3300006: Cube.004
-    3300008: Cube.005
-    3300010: Cube.006
+    3300002: Cube_002
+    3300004: Cube_003
+    3300006: Cube_004
+    3300008: Cube_005
+    3300010: Cube_006
     3300012: Plane
     4300000: Plane
     4300002: Cube
-    4300004: Cube.003
-    4300006: Cube.005
-    4300008: Cube.004
-    4300010: Cube.006
-    4300012: Cube.002
+    4300004: Cube_003
+    4300006: Cube_005
+    4300008: Cube_004
+    4300010: Cube_006
+    4300012: Cube_002
+    7400000: Default Take
+    9500000: //RootNode
   materials:
     importMaterials: 1
     materialName: 0
@@ -111,7 +113,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
