@@ -1,10 +1,17 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 312ffe875353c824a87fa281a042ae28
+=======
+guid: 9b526620d35f458438fafc8145c86910
+>>>>>>> c9b266e636f4d48788f30286c1188510e59f8b85
 folderAsset: yes
 timeCreated: 1524601352
 licenseType: Free
 DefaultImporter:
+<<<<<<< HEAD
   externalObjects: {}
+=======
+>>>>>>> c9b266e636f4d48788f30286c1188510e59f8b85
   userData: 
   assetBundleName: 
   assetBundleVariant: 
