@@ -9,8 +9,11 @@ public class Pistol : MonoBehaviour
     public int ammo = 20;
     //Optional
     public float range = 50;
+    //public GameObject skeleton;
 
     private Transform mainCamera;
+    public Camera fpscam;
+
 
     private AudioSource myAudioSource;
     public AudioClip shootSound;
@@ -36,20 +39,19 @@ public class Pistol : MonoBehaviour
         //Raycast
         Ray ray = new Ray(mainCamera.position, mainCamera.forward);
         RaycastHit hit;
-
-        if (Physics.Raycast(ray, out hit, range))
-        {
-            if (hit.collider.CompareTag("Enemy"))
+        if  (Physics.Raycast(fpscam.transform.position, fpscam.transform.forward, out hit , range))
             {
-                //Damage the Enemy
-
-                Debug.Log("we hit an enemy , yaah");
-
-               //hit.collider.GetComponent<Enemy_Health>().TakeDamage(damage);
+            Debug.Log(hit.transform.name);
+            Target target = hit.transform.GetComponent<Target>();
+            if(target != null)
+            {
+                target.TakeDamage(damage);
             }
         }
+
 
           myAudioSource.PlayOneShot(shootSound);
          ammo--;
     }
+
 }

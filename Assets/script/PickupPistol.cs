@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class PistolPickup : MonoBehaviour
+public class PickupPistol : MonoBehaviour
 {
-
     public float TheDistance;
     public GameObject ActionDisplay;
     public GameObject ActionText;
@@ -22,7 +21,7 @@ public class PistolPickup : MonoBehaviour
 
     void OnMouseOver()
     {
-        if (TheDistance <= 4)
+        if (TheDistance <= 2)
         {
             ExtraCross.SetActive(true);
             ActionText.GetComponent<Text>().text = "Pick Up Pistol";

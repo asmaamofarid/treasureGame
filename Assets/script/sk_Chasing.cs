@@ -61,5 +61,7 @@ public class sk_Chasing : MonoBehaviour
         //restrict skeleton vision .. check if he is your view (in front) then he will chase you
         // calc angle bet forward direction of skeleton & player so we use vector3.angle fun
     }
+   
+    
 
 }
